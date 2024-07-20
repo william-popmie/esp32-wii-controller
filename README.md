@@ -1,5 +1,14 @@
-# ESP32 WII controller
+# ESP-NOW wii controller setup
 
-Arduino code for esp32 wii controller
+- **Transmitter**: Reads input from Nintendo controllers and sends data via ESP-NOW.
+- **Receiver**: Receives data
 
-Udated somthing.
+## Software Setup
+
+### Transmitter
+
+1. Install the following libraries:
+   - `ESP8266WiFi`
+   - `espnow`
+   - `Wire`
+   - `NintendoExtensionCtrl`
