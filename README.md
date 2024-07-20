@@ -1,7 +1,7 @@
 # ESP-NOW wii controller setup
 
 - **Transmitter**: Reads input from Nintendo controllers and sends data via ESP-NOW.
-- **Receiver**: Receives data
+- **Receiver**: Receives wii controller data.
 
 ## Software Setup
 
